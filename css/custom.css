@@ -1,0 +1,102 @@
+@font-face {font-family:"Neuropol X";src:url("../fonts/neuropol_x_free-webfont.woff2") format("woff")}
+.content-section {padding:1.5rem 2%;}
+.bg-light {--bs-bg-opacity: 1;background-color: #ffffff !important;}
+.ats-banner {position:relative;margin:0;height:100%;}
+.ats-banner-block {position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;height:200px;}
+.ats-banner-logo {font-size:3rem;}
+.ats-navbar {position:fixed;z-index:1;}
+.ats-content {font-size:1.2em;}
+.ats-contact-banner {margin-top:70px;}
+.ats-services-link {text-decoration:none;}
+.ats-services-link:hover {color:#ffffff;}
+#top-menu-bar {display:block;}
+#sidebar-wrapper {display:none;}
+#sidebar-wrapper-link {display:none;}
+#about-image {
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/about.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#web-development-image {
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/web-development.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#website-design-image {
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/website-design.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#software-development-image {
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/software-development.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ats-content-image-padding {padding-left:0%;padding-right:0%;}
+.ats-profile-image {width:40px;border-radius:50%;}
+.ats-services-icon-width {width:70%;}
+.ats-parallax-bg-image {position: relative;height: 270px;background-image: url("../images/parallax.webp");background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.ats-contact-icon-size {font-size:32px;}
+.ats-footer-left-align {text-align:start;}
+.ats-footer-right-align {text-align:end;}
+.ats-conte-align {text-align:start;}
+.ats-show {display:block;}
+.ats-hidden {display:none;}
+.ats-primary-bg-color {background-color:#309Cbd;}
+.ats-danger-bg-color {background-color:#ff0000;}
+.ats-gray-bg-color {background-color: #303030;}
+.ats-light-gray-bg-color {background-color: #505050;}
+.ats-bold-text {font-weight:bold;}
+.ats-white-text {color:#ffffff;}
+.ats-gray-text {color:#303030;}
+.ats-primary-text {color:#309Cbd}
+.ats-danger-text {color:#ff0000;}
+@media (max-width: 991px) {
+    .ats-content {font-size:1.2em;}
+    #top-menu-bar {display:none;}
+    .ats-contact-banner {padding-top:0px;}
+    #sidebar-wrapper {display:block;}
+    #sidebar-wrapper-link {display:block;}
+    .ats-profile-image {width:40px;border-radius:50%;}
+    .ats-services-icon-width {width:60%;}
+    .ats-contact-icon-size {font-size:28px;}
+    .ats-content-align {text-align:center;}
+    .ats-footer-left-align {text-align:center;}
+    .ats-footer-right-align {text-align:center;}
+}
+@media only screen and (max-width:768px) {
+    .ats-contact-banner {padding-top:0px;}
+    .ats-profile-image {width:40px;border-radius:50%;}
+    .ats-contact-banner {padding-top:0px;}
+    .ats-services-icon-width {width:50%;}
+    .ats-contact-icon-size {font-size:26px;}
+    .ats-content-align {text-align:center;}
+    .ats-footer-left-align {text-align:center;}
+    .ats-footer-right-align {text-align:center;}
+}
+@media only screen and (max-width:700px){
+    .ats-profile-image {width:50px;border-radius:50%;}
+    .ats-contact-banner {padding-top:0px;}
+    .ats-services-icon-width {width:50%;}
+    .ats-contact-icon-size {font-size:22px;}
+    .ats-content-align {text-align:center;}
+    .ats-footer-left-align {text-align:center;}
+    .ats-footer-right-align {text-align:center;}
+}
+@media only screen and (max-width:450px) {
+    .ats-profile-image {width:60px;border-radius:50%;}
+    .ats-contact-banner {padding-top:0px;}
+    .ats-services-icon-width {width:40%;}
+    .ats-contact-icon-size {font-size:18px;}
+    .ats-content-align {text-align:center;}
+    .ats-footer-left-align {text-align:center;}
+    .ats-footer-right-align {text-align:center;}
+}
